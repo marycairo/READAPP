@@ -1,0 +1,22 @@
+@import './styles/errors.css';
+@import './styles/button.css';
+@import './styles/input.css';
+@import './styles/layout.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --background-color: rgb(245, 244, 244);
+  --primary-color: #540b0e;
+  --secondary-color: #e6ccb2;
+  --primary-text-color: rgb(0, 0, 0);
+  --secondary-text-color: rgb(255, 255, 255);
+  --hover-color: #41090b;
+  --error-color: rgb(235, 20, 20);
+}

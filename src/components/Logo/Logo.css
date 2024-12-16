@@ -1,0 +1,39 @@
+.logo {
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, #e0e0e0, #d8b3bcf8, #dbf10c);
+  background-size: 200% 200%;
+  animation: gradient-animation 10s ease infinite;
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+
+.logo-icon {
+  vertical-align: middle;
+  height: 3.5rem;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 3.5rem;
+  color: transparent; 
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

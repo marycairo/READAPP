@@ -1,0 +1,33 @@
+.layout-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+.layout-content--login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+}
+
+.gradient {
+  background: linear-gradient(
+    30deg, 
+    #6e6618e7  0%, 
+    #4b0515e3 33%, 
+    #6e6618e7  66%, 
+    #4b0515e3 100%);
+  background-size: 800% 800%;
+  animation: transition 5s linear infinite;
+  height: 100vh;
+}
+
+@keyframes transition {
+  0% {background-position: 100% 0%;}
+  100% {background-position: 20% 75%;}
+}
